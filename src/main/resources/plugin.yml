@@ -1,0 +1,12 @@
+name: MainLyckohjul
+version: '${project.version}'
+main: se.xfunserver.mainlyckohjul.LuckyWheel
+api-version: 1.17
+authors: [ Wolfeiii ]
+softdepend: [HolographicDisplays]
+
+commands:
+  spin:
+    description: spinnar hjulet för fan
+  wheelsetup:
+    description: skapa ett hjul idk?

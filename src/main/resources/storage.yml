@@ -1,0 +1,9 @@
+# Storage configuration:
+
+Login:
+  Host: ""
+  Port: 3306
+  User: ""
+  Password: ""
+  Database: ""
+  SSL: true

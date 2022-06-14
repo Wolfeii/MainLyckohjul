@@ -1,0 +1,16 @@
+# Messages configuration:
+
+Prefix: "&3&lWheel Of Fortune &8» "
+Command:
+  Player:
+    Offline: '&cThe player you have tried to find (%player_name%) is invalid / offline.'
+    NotForConsole: '&cThis command is not available for console usage.'
+  NoPermission: '&cYou aren't allowed to use this command. You need the permission node &4%permission%&c.'
+  Usage: "&cUsage: &4%syntax%"
+  Reloaded: '&aConfiguration files and events have been reloaded.'
+Wheel:
+  NoWheel: '&cThere is no available wheel to spin. Please contact an administrator.'
+  Starting: "&aSpinning the Lucky Wheel."
+  NoEvent: 'The Lucky Wheel landed on nothing.'
+  Event: 'The Lucky Wheel landed on %color%, resulting in %event_name%!'
+

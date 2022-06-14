@@ -1,0 +1,20 @@
+# Settings configuration:
+
+DefaultRank: "Default"
+MaxSectionSearchDepth: 250
+
+Wheel:
+  Location:
+    CornerOne: 'WORLD 20 10 100'
+    CornerTwo: 'WORLD 20 10 100'
+    Center: 'WORLD 20 10 100'
+    Facing: 'NORTH'
+  IgnoredMaterials:
+    - "REDSTONE_LAMP"
+  Sounds:
+    Win: 'ENTITY_FIREWORK_ROCKET_LARGE_BLAST_FAR'
+    Tick: 'BLOCK_NOTE_BLOCK_PLING'
+  Events:
+    Yellow:
+      Command: 'eco give %player% 500'
+

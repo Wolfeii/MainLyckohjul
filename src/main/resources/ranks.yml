@@ -1,0 +1,6 @@
+Admin:
+  Operator: true
+  Cooldown: 100
+Default:
+  Operator: false
+  Cooldown: 100000
